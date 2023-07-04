@@ -64,4 +64,4 @@ def weather():
         return render_template('error.html')
 
 
-app.run()
+app.run(host='0.0.0.0', debug=True, port=5000)
